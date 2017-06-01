@@ -1,0 +1,138 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>tribute page</title>
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+    
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+  </head>
+  <body>
+    <!--[if IE]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    
+    <div class="container">
+      <div class="section" id="section1">
+        <div class="content">
+          <h1 id="section1-scroll-target">
+            How do I learn to code???
+          </h1>
+          <p>
+            People ask me this all the time. But I always answer the same.
+          </p>
+        </div>
+        <a class="scroll" href="#section2-scroll-target">
+          <div class="scroll-down"></div>
+        </a>
+      </div>  
+      <div class="section" id="section2">
+        <div class="content" id="section2-scroll-target">
+          <h1>
+            This is CS50.
+          </h1>
+          <h2>
+            But wait, I don't go to Harvard, I can't take a Harvard class!
+          </h2>
+          <p>
+            That's where you're wrong. This awesome guy named <a href="https://twitter.com/davidjmalan">David Malan</a> (check him out and tweet him to say thank you for all this!) made all the course materials, lectures, problem sets, helpful recitation like videos and even reddit communities/google groups 100% free! One might say you get an even better learning experience then some of the people taking the class in person. &#x1F60F; 
+          </p>
+        </div>
+        <a class="scroll" href="#section3-scroll-target">
+          <div class="scroll-down"></div>
+        </a>
+      </div>
+      <div class="section" id="section3">
+        <div class="content" id="section3-scroll-target">
+          <h1>I dunno, most online courses suck...</h1>
+          <p>
+            Not this one, trust me! Look, if you dont trust me, watch the first lecture!
+          </p>
+        </div>
+      </div>
+      <div class="section" id="section4">
+        <div class="content" id="section4-scroll-target">
+          <h1>
+            Week 0: Scratch
+          </h1>
+          <!-- <div class="js-video widescreen"> -->
+          <div class="video-container">
+            <iframe width="560" 
+                    height="315" 
+                    src="https://www.youtube-nocookie.com/embed/o4SGkB_8fFs" 
+                    frameborder="0" 
+                    allowfullscreen>
+            </iframe>
+          </div>
+          <!-- </div> -->
+        </div>
+      </div>
+      <div class="section" id="section5">
+        <div class="content" id="section5-scroll-target">
+          <h1>
+            Like it? or even LOVE it?
+          </h1>
+          <p>
+            I knew you would. Now go tackle the first problem set and start crawling through all of it. Soon enough, you will have a great foothold to know where to go next! &#x1F604;
+          </p>
+          <h2>
+            <a href="http://cs50.tv">
+              Here lies your free CS education!
+            </a>
+          </h2>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='https://www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+    
+    <!-- build:js scripts/plugins.js -->
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/affix.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/alert.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tooltip.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/modal.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/transition.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/button.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/popover.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/carousel.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/scrollspy.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/collapse.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tab.js"></script>
+    <!-- endbuild -->
+    
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>
