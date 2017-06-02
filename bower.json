@@ -3,7 +3,9 @@
   "private": true,
   "dependencies": {
     "bootstrap-sass": "~3.3.5",
-    "modernizr": "~2.8.1"
+    "modernizr": "~2.8.1",
+    "roboto-fontface": "^0.7.0",
+    "montserrat-webfont": "^1.0.3"
   },
   "overrides": {
     "bootstrap-sass": {
