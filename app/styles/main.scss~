@@ -1,12 +1,9 @@
-$icon-font-path: '../fonts/';
+$icon-font-path: 'app/fonts/';
 // bower:scss
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 @import "bower_components/montserrat-webfont/scss/montserrat-webfont.scss";
 // endbower
-
-@import "bower_components/roboto-fontface/css/roboto/sass/roboto-fontface.scss";
-@import "bower_components/roboto-fontface/css/roboto-condensed/sass/roboto-condensed-fontface.scss";
-@import "bower_components/roboto-fontface/css/roboto-slab/sass/roboto-slab-fontface.scss";
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 .browserupgrade {
   margin: 0.2em 0;
